@@ -24,6 +24,10 @@
     {
       "path": "packages/config",
       "shouldPublish": false
+    },
+    {
+      "path": "apps/multi-modal-agent",
+      "shouldPublish": false
     }
   ]
 }

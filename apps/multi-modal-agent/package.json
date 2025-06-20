@@ -1,0 +1,34 @@
+{
+  "name": "multi-modal-agent",
+  "version": "1.0.0",
+  "scripts": {
+    "reset": "npx rimraf ./**/node_modules",
+    "setup": "pnpm run reset && pnpm install",
+    "dev": "edenx dev",
+    "build": "edenx build",
+    "start": "edenx start",
+    "serve": "edenx serve",
+    "new": "edenx new",
+    "deploy": "edenx deploy",
+    "upgrade": "edenx upgrade"
+  },
+  "dependencies": {
+    "@edenx/runtime": "1.67.10",
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0"
+  },
+  "devDependencies": {
+    "@edenx/app-tools": "1.67.10",
+    "@edenx/tsconfig": "1.67.10",
+    "@byted/eslint-config-standard": "^3.1.1",
+    "@byted/eslint-config-standard-react": "^2.1.1",
+    "eslint-plugin-prettier": "~5.2.2",
+    "typescript": "~5.0.4",
+    "@types/node": "~16.11.7",
+    "@types/react": "~18.2.22",
+    "@types/react-dom": "~18.2.7",
+    "@byted/eslint-config-standard-ts": "^3.1.1",
+    "rimraf": "~3.0.2"
+  },
+  "private": true
+}
