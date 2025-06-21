@@ -26,6 +26,9 @@
     "@changesets/cli": "2.24.1",
     "commitizen": "4.2.5"
   },
+  "resolutions": {
+    "postcss": "^8.5.3"
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
